@@ -176,7 +176,8 @@
 		})();
 
 
-		var config = {
+		window.onload = function(){
+			var config = {
 				vx: 4,
 				vy:  4,
 				height: 2,
@@ -187,8 +188,8 @@
 				dist: 6000,
 				e_dist: 20000,
 				max_conn: 10
-		}
-		CanvasParticle(config);
+			}
+			CanvasParticle(config);
 		}
 	</script>
 
